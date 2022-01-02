@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Complaint Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+<link rel="stylesheet" type="text/css" href="style.css">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="jumbotron text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-6">
+				<form method="post" action="serv3">
+	           <table cellpadding="10" cellspacing="2" class="t2" >
+		       <h2>Register Complaint</h2>
+		      <tbody>		
+		        <tr><td>Complaint Id</td><td><input type="number" name="cid"/></td></tr>
+            	<tr><td>Username</td><td><input type="email" name="username" placeholder="abc@xyz.com"/></td></tr>
+	            <tr><td>Complaint</td><td><textarea rows="4" cols="40" name="complaint"></textarea></td></tr>
+	            <tr><td colspan="2"><input type="submit" value="ADD COMPLAINT"/></td></tr>
+             </tbody>
+             </table>
+             </form>
+ 			</div>
+
+			<div class-"col-m-6">
+				<form method="post" action="serv4">
+	            <table cellpadding="10" cellspacing="2" class="t2" >
+		        <h2>Are you Satisfied?</h2>
+		        <tbody>		
+	            <tr><td>Username</td><td><input type="email" name="username" placeholder="abc@xyz.com"/></td></tr>
+	            <tr><td>Feedback</td><td><textarea rows="4" cols="40" name="feedback"></textarea></td></tr>
+	            <tr><td colspan="2"><input type="submit" value="SUBMIT"/></td></tr>
+                </tbody>
+                </table>
+                </form>
+			</div>
+		</div>
+</div>
+<center>
+<form action="serv5" method="post">
+	<table cellpadding="10" cellspacing="2" class="t2" >
+		<h2>Delete Complaint</h2>
+		<tbody>		
+	<tr><td>Complaint Id</td><td><input type="numebr" name="cid"/></td></tr>	
+	<tr><td>Username</td><td><input type="email" name="username" placeholder="abc@xyz.com"/></td></tr>
+	<tr><td colspan="2"><input type="submit" value="DELETE"/></td></tr>
+</tbody>
+</table>
+
+</form><br/><br/>
+<h3><a href="home.html">LOGOUT</a></h3>
+</center>
+</body>
+</html>

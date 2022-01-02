@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Home page</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<img src="images/women.jpg" alt="women" height="700" width="1500">
+<h1 class="centered">UNHEARD VOICES</h1>
+<center>
+<form method="post" action="serv1">
+	<table cellpadding="20" cellspacing="2" class="t1">
+		<thead><h2>Register</h2></thead>
+		<tbody>
+			<tr><td>Name</td><td><input type="text" name="name" required/></td></tr>
+			<tr><td>Phone</td><td><input type="text" name="phone" pattern="[0-9]{10}" required /></td></tr>
+	<tr><td>Username</td><td><input type="text" name="username" placeholder="abc@xyz.com"/></td></tr>
+	<tr><td>Password</td><td><input type="text" name="password" required/></td></tr>
+	<tr><td colspan="2"><input type="submit" value="REGISTER"/></td></tr>
+</tbody>
+</table>
+<h2>Existing User? <a href="login.html">LOGIN</a></h2>
+</form>
+</center>
+<div class="info">
+	<strong><h2>WHAT'S NEW?</h2></strong>
+	<ul style="list-style-type: none">
+		<li><a href="safety.html">Stay Safe</a></li>
+	</ul>
+	</div>
+</body>
+</html>

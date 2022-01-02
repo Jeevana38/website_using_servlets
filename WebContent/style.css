@@ -1,0 +1,33 @@
+.centered {
+  position: absolute;
+  top: 10%;
+  left: 40%;
+}
+.info{
+	text-align:center;
+	font-size:200%;
+}
+body{
+	background-image: url("images/bg.png");
+}
+table{
+	background-color:white;
+	border-color:black;
+	border-radius:10px;
+}
+
+h1,h3{
+	text-align:center;
+}
+img{
+	width:100%;
+	height:90%;
+}
+.t1{
+	font-size:40px;
+}
+.t2{
+	background-color:violet;
+	color:red;
+	font-size:20px;
+}
